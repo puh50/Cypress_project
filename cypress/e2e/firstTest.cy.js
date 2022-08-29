@@ -1,40 +1,44 @@
 /// <reference types="Cypress"/>
 
-// it('By ID', () => {
-//     cy.visit('https://facebook.com')
-//     cy.get('#email')
-// });
+// 1 lecture
 
-// it('By Class', () => {
-//     cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
-//     cy.get('.DocSearch-Button')
-// });
+it('By ID', () => {
+    cy.visit('https://facebook.com')
+    cy.get('#email')
+});
 
-// it('By Tag', () => {
-//     cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
-//     cy.get('nav')
-// });
+it('By Class', () => {
+    cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
+    cy.get('.DocSearch-Button')
+});
 
-// it('By Tag value', () => {
-//     cy.visit('https://facebook.com')
-//     cy.get('[name="pass"]')
-// });
+it('By Tag', () => {
+    cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
+    cy.get('nav')
+});
 
-// it('By Different Tag', () => {
-//     cy.visit('https://facebook.com')
-//     cy.get('[data-testid="open-registration-form-button"][role="button"]')
-// });
+it('By Tag value', () => {
+    cy.visit('https://facebook.com')
+    cy.get('[name="pass"]')
+});
 
-// it('By Different Types', () => {
-//     cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
-//     cy.get('button[type="button"][aria-label="Search"]')
-// });
+it('By Different Tag', () => {
+    cy.visit('https://facebook.com')
+    cy.get('[data-testid="open-registration-form-button"][role="button"]')
+});
 
-// it.only('By Contains name', () => {
-//     cy.visit('https://next.privat24.ua')
-//     cy.get('*[class^=card]')
-// });
+it('By Different Types', () => {
+    cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
+    cy.get('button[type="button"][aria-label="Search"]')
+});
 
+it.only('By Contains name', () => {
+    cy.visit('https://next.privat24.ua')
+    cy.get('*[class^=card]')
+});
+
+
+// 2 lecture
 
 it('Using Get with Find and Eq', () => {
     cy.visit('https://next.privat24.ua')
