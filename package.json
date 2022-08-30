@@ -9,6 +9,7 @@
   "author": "Andrei Gaponenko",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.6.0"
+    "cypress": "^10.6.0",
+    "cypress-real-events": "^1.7.1"
   }
 }
